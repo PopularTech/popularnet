@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .all {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0)60%,
+    rgba(0, 0, 0, 0.8)100%),  url(/images/b1.avif);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+   }
+main {
+    display: flex;
+    justify-content: center;
+    height: 145%;
+}
+.container {
+    height: 41.5rem;
+    width: 28rem;
+    background: rgba(0,0,0,.75);
+    border-radius: 3.5px;
+    color: #ffffff;
+}
+.ntfl {
+    width: 10rem;
+    margin: 1rem 2rem;
+    cursor: pointer;
+}
+.wrap {
+    margin: 3rem 4rem;
+}
+#sign_txt{
+    font-size: 2rem;
+}
+.wrap .inp {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    text-align: center;
+}
+#password, #email, #sgn {
+    width: 20rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 4px;
+}
+#password, #email {
+    background-color: #5f5e5e;
+}
+.wrap ::placeholder {
+    font-size: 1rem;
+    padding: 0 1rem;
+    color: #c4c0c0;
+    font-weight: 400;
+}
+#sgn {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+    background: #ff0000;
+    cursor: pointer;
+}
+.hlp {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+    color: #8c8c8c;
+}
+form a {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.new {
+    padding-top: 4rem ;
+    color: #8c8c8c;
+}
+.new h4 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.new p {
+    padding-top: 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.new a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.new p a {
+    color: #0000ff;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    margin-top: 4rem;
+    padding: 2rem 10rem;
+    height: 40vh;
+    background: rgba(0,0,0,.75);
+    color: #c4c0c0;
+}
+.col {
+    padding: 2rem 0;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.col a {
+    color: #c4c0c0;
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+a:link {
+    text-decoration: none;
+}
+.language {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    border: 1px solid #5f5e5e;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1px;
+}
+#language {
+    color: #5f5e5e;
+    background: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.language .material-symbols-outlined {
+    color: #5f5e5e;
+    font-size: 2rem;
+}
+        
+   
+        
